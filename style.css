@@ -174,3 +174,58 @@ header .hero-image {
     border: none;
     border-radius: 6px;
 }
+
+footer .footer-container {
+    padding: 160px 170px;
+    background-color: #151414;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container .left-footer h2 {
+    font-size: 45px;
+    font-weight: bold;
+    color: #F8F8F8;
+    margin-bottom: 10px;
+}
+
+.footer-container .left-footer p {
+    width: 50%;
+    margin-bottom: 15px;
+}
+
+.footer-container .left-footer div {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.left-footer div img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.footer-container .right-footer h2 {
+    font-size: 25px;
+    font-weight: 600px;
+    margin-bottom: 8px;
+}
+
+.footer-container .right-footer input {
+    width: 250px;
+    padding: 10px 6px;
+    margin-bottom: 10px;
+}
+
+.footer-container .right-footer button {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #005FAC;
+    color: #FFFFFF;
+    padding: 14px 32px;
+    border: none;
+    border-radius: 6px;
+}
