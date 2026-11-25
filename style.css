@@ -43,9 +43,10 @@ header .hero-image {
     padding: 20px 30px;
     border: none;
     border-radius: 6px;
+    cursor: pointer;
 }
 
-#failures .failures-container {
+.failures .failures-container {
     margin: 160px 170px;
     display: flex;
     align-items: center;
@@ -123,4 +124,53 @@ header .hero-image {
 
 .plans-container div h3 {
     color: #737272;
+}
+
+.mindset .mindset-container {
+    max-width: 1050px;
+    margin: 0 auto 160px auto;
+    position: relative;
+}
+
+.mindset .mindset-container img {
+    width: 100%;
+    display: block;
+}
+
+.mindset .mindset-container::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    opacity: 80%;
+    background: url('./images/gradient1.png') no-repeat;
+    background-size: cover;
+    pointer-events: none;
+}
+
+.mindset-container div {
+    position: absolute;
+    width: 40%;
+    top: 25%;
+    left: 8%;
+    z-index: 1;
+}
+
+.mindset-container div h2 {
+    font-size: 35px;
+    font-width: bold;
+    line-height: 40px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.mindset-container div button {
+    font-size: 20px;
+    font-weight: bold;
+    color: #005FAC;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 6px;
 }
