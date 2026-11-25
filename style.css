@@ -6,16 +6,16 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
-header .hero-image{
+header .hero-image {
     background-image: url('./images/banner3.png');
     max-width: 100%;
     height: 100vh;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     position: relative;
 }
 
-.hero-image .hero-stuffs{
+.hero-image .hero-stuffs {
     position: absolute;
     top: 25%;
     left: 56%;
@@ -24,19 +24,19 @@ header .hero-image{
     text-align: right;
 }
 
-.hero-stuffs h2{
+.hero-stuffs h2 {
     font-size: 40px;
     font-weight: bold;
     color: #FFFFFF;
     margin-bottom: 20px
 }
 
-.hero-stuffs p{
+.hero-stuffs p {
     color: #FFFFFF;
     margin-bottom: 30px
 }
 
-.hero-stuffs button{
+.hero-stuffs button {
     font-size: 20px;
     font-weight: bold;
     color: #005FAC;
@@ -45,3 +45,48 @@ header .hero-image{
     border-radius: 6px;
 }
 
+#failures .failures-container {
+    margin: 160px 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 120px;
+}
+
+.failures-container .left-image img {
+    max-width: 450px;
+    max-height: 700px;
+}
+
+.failures-container .right-stuffs {
+    padding-top: 100px;
+}
+
+.failures-container .right-stuffs h3 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #151414;
+    line-height: 45px;
+    margin-bottom: 20px;
+}
+
+.failures-container .right-stuffs p {
+    color: #444343;
+    margin-bottom: 20px;
+}
+
+
+.failures-container .right-stuffs div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.right-stuffs div img {
+    width: 16px;
+}
+
+.right-stuffs div h5 {
+    color: #444343;
+    margin-bottom: 4px;
+}
