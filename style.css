@@ -90,3 +90,37 @@ header .hero-image {
     color: #444343;
     margin-bottom: 4px;
 }
+
+.plans {
+    text-align: center;
+}
+
+.plans .plans-container {
+    margin: 100px 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.plans h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #151414;
+    margin-bottom: -30px;
+}
+
+.plans-container div img {
+    width: 92px;
+    height: 92px;
+    margin-bottom: 10px;
+}
+
+.plans-container div h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #151414;
+}
+
+.plans-container div h3 {
+    color: #737272;
+}
